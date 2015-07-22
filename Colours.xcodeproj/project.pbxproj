@@ -1,0 +1,425 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		403BC9E41B5FEBA300382F4E /* Colours-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 403BC9E31B5FEBA300382F4E /* Colours-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403BC9F91B5FEBDF00382F4E /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9F81B5FEBDF00382F4E /* Colours.swift */; };
+		403BC9FB1B5FEBE900382F4E /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9FA1B5FEBE900382F4E /* Colours.m */; };
+		403BC9FD1B5FF07500382F4E /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 403BC9FC1B5FF07500382F4E /* Colours.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		403BC9961B5FE51300382F4E /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403BC99A1B5FE51300382F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Colours/Info.plist; sourceTree = "<group>"; };
+		403BC9DF1B5FEBA300382F4E /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		403BC9E21B5FEBA300382F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		403BC9E31B5FEBA300382F4E /* Colours-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Colours-iOS.h"; sourceTree = "<group>"; };
+		403BC9F81B5FEBDF00382F4E /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = SOURCE_ROOT; };
+		403BC9FA1B5FEBE900382F4E /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = SOURCE_ROOT; };
+		403BC9FC1B5FF07500382F4E /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		403BC9921B5FE51300382F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403BC9DB1B5FEBA300382F4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		403BC98C1B5FE51300382F4E = {
+			isa = PBXGroup;
+			children = (
+				403BC9981B5FE51300382F4E /* Colours */,
+				403BC9E01B5FEBA300382F4E /* Colours-iOS */,
+				403BC9971B5FE51300382F4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		403BC9971B5FE51300382F4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				403BC9961B5FE51300382F4E /* Colours.framework */,
+				403BC9DF1B5FEBA300382F4E /* Colours.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		403BC9981B5FE51300382F4E /* Colours */ = {
+			isa = PBXGroup;
+			children = (
+				403BC9FC1B5FF07500382F4E /* Colours.h */,
+				403BC9FA1B5FEBE900382F4E /* Colours.m */,
+				403BC9991B5FE51300382F4E /* Supporting Files */,
+			);
+			path = Colours;
+			sourceTree = "<group>";
+		};
+		403BC9991B5FE51300382F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403BC99A1B5FE51300382F4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		403BC9E01B5FEBA300382F4E /* Colours-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				403BC9F81B5FEBDF00382F4E /* Colours.swift */,
+				403BC9E31B5FEBA300382F4E /* Colours-iOS.h */,
+				403BC9E11B5FEBA300382F4E /* Supporting Files */,
+			);
+			path = "Colours-iOS";
+			sourceTree = "<group>";
+		};
+		403BC9E11B5FEBA300382F4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				403BC9E21B5FEBA300382F4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		403BC9931B5FE51300382F4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403BC9FD1B5FF07500382F4E /* Colours.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403BC9DC1B5FEBA300382F4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403BC9E41B5FEBA300382F4E /* Colours-iOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		403BC9951B5FE51300382F4E /* Colours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403BC9AC1B5FE51400382F4E /* Build configuration list for PBXNativeTarget "Colours" */;
+			buildPhases = (
+				403BC9911B5FE51300382F4E /* Sources */,
+				403BC9921B5FE51300382F4E /* Frameworks */,
+				403BC9931B5FE51300382F4E /* Headers */,
+				403BC9941B5FE51300382F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Colours;
+			productName = Colours;
+			productReference = 403BC9961B5FE51300382F4E /* Colours.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		403BC9DE1B5FEBA300382F4E /* Colours-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 403BC9F21B5FEBA300382F4E /* Build configuration list for PBXNativeTarget "Colours-iOS" */;
+			buildPhases = (
+				403BC9DA1B5FEBA300382F4E /* Sources */,
+				403BC9DB1B5FEBA300382F4E /* Frameworks */,
+				403BC9DC1B5FEBA300382F4E /* Headers */,
+				403BC9DD1B5FEBA300382F4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Colours-iOS";
+			productName = "Colours-iOS";
+			productReference = 403BC9DF1B5FEBA300382F4E /* Colours.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		403BC98D1B5FE51300382F4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Colours;
+				TargetAttributes = {
+					403BC9951B5FE51300382F4E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					403BC9DE1B5FEBA300382F4E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 403BC9901B5FE51300382F4E /* Build configuration list for PBXProject "Colours" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 403BC98C1B5FE51300382F4E;
+			productRefGroup = 403BC9971B5FE51300382F4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				403BC9951B5FE51300382F4E /* Colours */,
+				403BC9DE1B5FEBA300382F4E /* Colours-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		403BC9941B5FE51300382F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403BC9DD1B5FEBA300382F4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		403BC9911B5FE51300382F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403BC9FB1B5FEBE900382F4E /* Colours.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		403BC9DA1B5FEBA300382F4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				403BC9F91B5FEBDF00382F4E /* Colours.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		403BC9AA1B5FE51400382F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		403BC9AB1B5FE51400382F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		403BC9AD1B5FE51400382F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Colours/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = Colours;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		403BC9AE1B5FE51400382F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = Colours/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				PRODUCT_NAME = Colours;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		403BC9F31B5FEBA300382F4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Colours-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		403BC9F41B5FEBA300382F4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Colours-iOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = Colours;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		403BC9901B5FE51300382F4E /* Build configuration list for PBXProject "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403BC9AA1B5FE51400382F4E /* Debug */,
+				403BC9AB1B5FE51400382F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403BC9AC1B5FE51400382F4E /* Build configuration list for PBXNativeTarget "Colours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403BC9AD1B5FE51400382F4E /* Debug */,
+				403BC9AE1B5FE51400382F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		403BC9F21B5FEBA300382F4E /* Build configuration list for PBXNativeTarget "Colours-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				403BC9F31B5FEBA300382F4E /* Debug */,
+				403BC9F41B5FEBA300382F4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 403BC98D1B5FE51300382F4E /* Project object */;
+}
