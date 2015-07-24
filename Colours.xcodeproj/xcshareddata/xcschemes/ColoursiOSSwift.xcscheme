@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "403BC9DE1B5FEBA300382F4E"
-               BuildableName = "Colours-iOS.framework"
-               BlueprintName = "Colours-iOS"
+               BlueprintIdentifier = "40BADC391B62C45900804D46"
+               BuildableName = "ColoursiOSSwift.framework"
+               BlueprintName = "ColoursiOSSwift"
                ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "403BC9E81B5FEBA300382F4E"
-               BuildableName = "Colours-iOSTests.xctest"
-               BlueprintName = "Colours-iOSTests"
+               BlueprintIdentifier = "40BADC431B62C45900804D46"
+               BuildableName = "ColoursiOSSwiftTests.xctest"
+               BlueprintName = "ColoursiOSSwiftTests"
                ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "403BC9E81B5FEBA300382F4E"
-               BuildableName = "Colours-iOSTests.xctest"
-               BlueprintName = "Colours-iOSTests"
+               BlueprintIdentifier = "40BADC431B62C45900804D46"
+               BuildableName = "ColoursiOSSwiftTests.xctest"
+               BlueprintName = "ColoursiOSSwiftTests"
                ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "403BC9DE1B5FEBA300382F4E"
-            BuildableName = "Colours-iOS.framework"
-            BlueprintName = "Colours-iOS"
+            BlueprintIdentifier = "40BADC391B62C45900804D46"
+            BuildableName = "ColoursiOSSwift.framework"
+            BlueprintName = "ColoursiOSSwift"
             ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "403BC9DE1B5FEBA300382F4E"
-            BuildableName = "Colours-iOS.framework"
-            BlueprintName = "Colours-iOS"
+            BlueprintIdentifier = "40BADC391B62C45900804D46"
+            BuildableName = "ColoursiOSSwift.framework"
+            BlueprintName = "ColoursiOSSwift"
             ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +93,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "403BC9DE1B5FEBA300382F4E"
-            BuildableName = "Colours-iOS.framework"
-            BlueprintName = "Colours-iOS"
+            BlueprintIdentifier = "40BADC391B62C45900804D46"
+            BuildableName = "ColoursiOSSwift.framework"
+            BlueprintName = "ColoursiOSSwift"
             ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

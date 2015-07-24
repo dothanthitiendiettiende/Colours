@@ -7,35 +7,145 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		403BC9E41B5FEBA300382F4E /* Colours-iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 403BC9E31B5FEBA300382F4E /* Colours-iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		403BC9F91B5FEBDF00382F4E /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9F81B5FEBDF00382F4E /* Colours.swift */; };
-		403BC9FB1B5FEBE900382F4E /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9FA1B5FEBE900382F4E /* Colours.m */; };
-		403BC9FD1B5FF07500382F4E /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 403BC9FC1B5FF07500382F4E /* Colours.h */; };
+		40BADC3F1B62C45900804D46 /* ColoursiOSSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BADC3E1B62C45900804D46 /* ColoursiOSSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40BADC451B62C45900804D46 /* ColoursiOSSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BADC3A1B62C45900804D46 /* ColoursiOSSwift.framework */; };
+		40BADC4C1B62C45900804D46 /* ColoursiOSSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BADC4B1B62C45900804D46 /* ColoursiOSSwiftTests.swift */; };
+		40BADC5D1B62C46900804D46 /* ColoursiOSObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BADC5C1B62C46900804D46 /* ColoursiOSObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40BADC631B62C46900804D46 /* ColoursiOSObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BADC581B62C46900804D46 /* ColoursiOSObjC.framework */; };
+		40BADC6A1B62C46900804D46 /* ColoursiOSObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BADC691B62C46900804D46 /* ColoursiOSObjCTests.m */; };
+		40BADCAF1B62C4B600804D46 /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 403BC9FC1B5FF07500382F4E /* Colours.h */; };
+		40BADCB01B62C4B600804D46 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9FA1B5FEBE900382F4E /* Colours.m */; };
+		40BADCB31B62C4BB00804D46 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9F81B5FEBDF00382F4E /* Colours.swift */; };
+		40BADCFB1B62C5B800804D46 /* ColoursMacSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BADCFA1B62C5B800804D46 /* ColoursMacSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40BADD011B62C5B800804D46 /* ColoursMacSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BADCF61B62C5B800804D46 /* ColoursMacSwift.framework */; };
+		40BADD081B62C5B800804D46 /* ColoursMacSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BADD071B62C5B800804D46 /* ColoursMacSwiftTests.swift */; };
+		40BADD191B62C5C200804D46 /* ColoursMacObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BADD181B62C5C200804D46 /* ColoursMacObjC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40BADD1F1B62C5C200804D46 /* ColoursMacObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40BADD141B62C5C200804D46 /* ColoursMacObjC.framework */; };
+		40BADD261B62C5C200804D46 /* ColoursMacObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BADD251B62C5C200804D46 /* ColoursMacObjCTests.m */; };
+		40BADD2D1B62C5C700804D46 /* Colours.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9F81B5FEBDF00382F4E /* Colours.swift */; };
+		40BADD2E1B62C5CB00804D46 /* Colours.h in Headers */ = {isa = PBXBuildFile; fileRef = 403BC9FC1B5FF07500382F4E /* Colours.h */; };
+		40BADD2F1B62C5CB00804D46 /* Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 403BC9FA1B5FEBE900382F4E /* Colours.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		40BADC461B62C45900804D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403BC98D1B5FE51300382F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BADC391B62C45900804D46;
+			remoteInfo = ColoursiOSSwift;
+		};
+		40BADC641B62C46900804D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403BC98D1B5FE51300382F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BADC571B62C46900804D46;
+			remoteInfo = ColoursiOSObjC;
+		};
+		40BADD021B62C5B800804D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403BC98D1B5FE51300382F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BADCF51B62C5B800804D46;
+			remoteInfo = ColoursMacSwift;
+		};
+		40BADD201B62C5C200804D46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 403BC98D1B5FE51300382F4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40BADD131B62C5C200804D46;
+			remoteInfo = ColoursMacObjC;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
-		403BC9961B5FE51300382F4E /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		403BC99A1B5FE51300382F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; name = Info.plist; path = Colours/Info.plist; sourceTree = "<group>"; };
-		403BC9DF1B5FEBA300382F4E /* Colours.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Colours.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		403BC9E21B5FEBA300382F4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		403BC9E31B5FEBA300382F4E /* Colours-iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Colours-iOS.h"; sourceTree = "<group>"; };
 		403BC9F81B5FEBDF00382F4E /* Colours.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colours.swift; sourceTree = SOURCE_ROOT; };
 		403BC9FA1B5FEBE900382F4E /* Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colours.m; sourceTree = SOURCE_ROOT; };
 		403BC9FC1B5FF07500382F4E /* Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colours.h; sourceTree = SOURCE_ROOT; };
+		40BADC3A1B62C45900804D46 /* ColoursiOSSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColoursiOSSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADC3D1B62C45900804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADC3E1B62C45900804D46 /* ColoursiOSSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColoursiOSSwift.h; sourceTree = "<group>"; };
+		40BADC441B62C45900804D46 /* ColoursiOSSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoursiOSSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADC4A1B62C45900804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADC4B1B62C45900804D46 /* ColoursiOSSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoursiOSSwiftTests.swift; sourceTree = "<group>"; };
+		40BADC581B62C46900804D46 /* ColoursiOSObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColoursiOSObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADC5B1B62C46900804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADC5C1B62C46900804D46 /* ColoursiOSObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColoursiOSObjC.h; sourceTree = "<group>"; };
+		40BADC621B62C46900804D46 /* ColoursiOSObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoursiOSObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADC681B62C46900804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADC691B62C46900804D46 /* ColoursiOSObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoursiOSObjCTests.m; sourceTree = "<group>"; };
+		40BADCF61B62C5B800804D46 /* ColoursMacSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColoursMacSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADCF91B62C5B800804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADCFA1B62C5B800804D46 /* ColoursMacSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColoursMacSwift.h; sourceTree = "<group>"; };
+		40BADD001B62C5B800804D46 /* ColoursMacSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoursMacSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADD061B62C5B800804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADD071B62C5B800804D46 /* ColoursMacSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColoursMacSwiftTests.swift; sourceTree = "<group>"; };
+		40BADD141B62C5C200804D46 /* ColoursMacObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ColoursMacObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADD171B62C5C200804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADD181B62C5C200804D46 /* ColoursMacObjC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ColoursMacObjC.h; sourceTree = "<group>"; };
+		40BADD1E1B62C5C200804D46 /* ColoursMacObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColoursMacObjCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40BADD241B62C5C200804D46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40BADD251B62C5C200804D46 /* ColoursMacObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ColoursMacObjCTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		403BC9921B5FE51300382F4E /* Frameworks */ = {
+		40BADC361B62C45900804D46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		403BC9DB1B5FEBA300382F4E /* Frameworks */ = {
+		40BADC411B62C45900804D46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40BADC451B62C45900804D46 /* ColoursiOSSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADC541B62C46900804D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADC5F1B62C46900804D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADC631B62C46900804D46 /* ColoursiOSObjC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADCF21B62C5B800804D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADCFD1B62C5B800804D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADD011B62C5B800804D46 /* ColoursMacSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADD101B62C5C200804D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADD1B1B62C5C200804D46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADD1F1B62C5C200804D46 /* ColoursMacObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,7 +156,14 @@
 			isa = PBXGroup;
 			children = (
 				403BC9981B5FE51300382F4E /* Colours */,
-				403BC9E01B5FEBA300382F4E /* Colours-iOS */,
+				40BADC3B1B62C45900804D46 /* ColoursiOSSwift */,
+				40BADC481B62C45900804D46 /* ColoursiOSSwiftTests */,
+				40BADC591B62C46900804D46 /* ColoursiOSObjC */,
+				40BADC661B62C46900804D46 /* ColoursiOSObjCTests */,
+				40BADCF71B62C5B800804D46 /* ColoursMacSwift */,
+				40BADD041B62C5B800804D46 /* ColoursMacSwiftTests */,
+				40BADD151B62C5C200804D46 /* ColoursMacObjC */,
+				40BADD221B62C5C200804D46 /* ColoursMacObjCTests */,
 				403BC9971B5FE51300382F4E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,8 +171,14 @@
 		403BC9971B5FE51300382F4E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				403BC9961B5FE51300382F4E /* Colours.framework */,
-				403BC9DF1B5FEBA300382F4E /* Colours.framework */,
+				40BADC3A1B62C45900804D46 /* ColoursiOSSwift.framework */,
+				40BADC441B62C45900804D46 /* ColoursiOSSwiftTests.xctest */,
+				40BADC581B62C46900804D46 /* ColoursiOSObjC.framework */,
+				40BADC621B62C46900804D46 /* ColoursiOSObjCTests.xctest */,
+				40BADCF61B62C5B800804D46 /* ColoursMacSwift.framework */,
+				40BADD001B62C5B800804D46 /* ColoursMacSwiftTests.xctest */,
+				40BADD141B62C5C200804D46 /* ColoursMacObjC.framework */,
+				40BADD1E1B62C5C200804D46 /* ColoursMacObjCTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -63,35 +186,161 @@
 		403BC9981B5FE51300382F4E /* Colours */ = {
 			isa = PBXGroup;
 			children = (
-				403BC9FC1B5FF07500382F4E /* Colours.h */,
-				403BC9FA1B5FEBE900382F4E /* Colours.m */,
-				403BC9991B5FE51300382F4E /* Supporting Files */,
+				40BADCAE1B62C49C00804D46 /* Swift */,
+				40BADCAD1B62C49500804D46 /* ObjC */,
 			);
 			path = Colours;
 			sourceTree = "<group>";
 		};
-		403BC9991B5FE51300382F4E /* Supporting Files */ = {
+		40BADC3B1B62C45900804D46 /* ColoursiOSSwift */ = {
 			isa = PBXGroup;
 			children = (
-				403BC99A1B5FE51300382F4E /* Info.plist */,
+				40BADC3E1B62C45900804D46 /* ColoursiOSSwift.h */,
+				40BADC3C1B62C45900804D46 /* Supporting Files */,
+			);
+			path = ColoursiOSSwift;
+			sourceTree = "<group>";
+		};
+		40BADC3C1B62C45900804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADC3D1B62C45900804D46 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		403BC9E01B5FEBA300382F4E /* Colours-iOS */ = {
+		40BADC481B62C45900804D46 /* ColoursiOSSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BADC4B1B62C45900804D46 /* ColoursiOSSwiftTests.swift */,
+				40BADC491B62C45900804D46 /* Supporting Files */,
+			);
+			path = ColoursiOSSwiftTests;
+			sourceTree = "<group>";
+		};
+		40BADC491B62C45900804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADC4A1B62C45900804D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BADC591B62C46900804D46 /* ColoursiOSObjC */ = {
+			isa = PBXGroup;
+			children = (
+				40BADC5C1B62C46900804D46 /* ColoursiOSObjC.h */,
+				40BADC5A1B62C46900804D46 /* Supporting Files */,
+			);
+			path = ColoursiOSObjC;
+			sourceTree = "<group>";
+		};
+		40BADC5A1B62C46900804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADC5B1B62C46900804D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BADC661B62C46900804D46 /* ColoursiOSObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BADC691B62C46900804D46 /* ColoursiOSObjCTests.m */,
+				40BADC671B62C46900804D46 /* Supporting Files */,
+			);
+			path = ColoursiOSObjCTests;
+			sourceTree = "<group>";
+		};
+		40BADC671B62C46900804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADC681B62C46900804D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BADCAD1B62C49500804D46 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				403BC9FC1B5FF07500382F4E /* Colours.h */,
+				403BC9FA1B5FEBE900382F4E /* Colours.m */,
+			);
+			name = ObjC;
+			sourceTree = "<group>";
+		};
+		40BADCAE1B62C49C00804D46 /* Swift */ = {
 			isa = PBXGroup;
 			children = (
 				403BC9F81B5FEBDF00382F4E /* Colours.swift */,
-				403BC9E31B5FEBA300382F4E /* Colours-iOS.h */,
-				403BC9E11B5FEBA300382F4E /* Supporting Files */,
 			);
-			path = "Colours-iOS";
+			name = Swift;
 			sourceTree = "<group>";
 		};
-		403BC9E11B5FEBA300382F4E /* Supporting Files */ = {
+		40BADCF71B62C5B800804D46 /* ColoursMacSwift */ = {
 			isa = PBXGroup;
 			children = (
-				403BC9E21B5FEBA300382F4E /* Info.plist */,
+				40BADCFA1B62C5B800804D46 /* ColoursMacSwift.h */,
+				40BADCF81B62C5B800804D46 /* Supporting Files */,
+			);
+			path = ColoursMacSwift;
+			sourceTree = "<group>";
+		};
+		40BADCF81B62C5B800804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADCF91B62C5B800804D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BADD041B62C5B800804D46 /* ColoursMacSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BADD071B62C5B800804D46 /* ColoursMacSwiftTests.swift */,
+				40BADD051B62C5B800804D46 /* Supporting Files */,
+			);
+			path = ColoursMacSwiftTests;
+			sourceTree = "<group>";
+		};
+		40BADD051B62C5B800804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADD061B62C5B800804D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BADD151B62C5C200804D46 /* ColoursMacObjC */ = {
+			isa = PBXGroup;
+			children = (
+				40BADD181B62C5C200804D46 /* ColoursMacObjC.h */,
+				40BADD161B62C5C200804D46 /* Supporting Files */,
+			);
+			path = ColoursMacObjC;
+			sourceTree = "<group>";
+		};
+		40BADD161B62C5C200804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADD171B62C5C200804D46 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		40BADD221B62C5C200804D46 /* ColoursMacObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				40BADD251B62C5C200804D46 /* ColoursMacObjCTests.m */,
+				40BADD231B62C5C200804D46 /* Supporting Files */,
+			);
+			path = ColoursMacObjCTests;
+			sourceTree = "<group>";
+		};
+		40BADD231B62C5C200804D46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				40BADD241B62C5C200804D46 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -99,60 +348,186 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		403BC9931B5FE51300382F4E /* Headers */ = {
+		40BADC371B62C45900804D46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403BC9FD1B5FF07500382F4E /* Colours.h in Headers */,
+				40BADC3F1B62C45900804D46 /* ColoursiOSSwift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		403BC9DC1B5FEBA300382F4E /* Headers */ = {
+		40BADC551B62C46900804D46 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403BC9E41B5FEBA300382F4E /* Colours-iOS.h in Headers */,
+				40BADCAF1B62C4B600804D46 /* Colours.h in Headers */,
+				40BADC5D1B62C46900804D46 /* ColoursiOSObjC.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADCF31B62C5B800804D46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADCFB1B62C5B800804D46 /* ColoursMacSwift.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADD111B62C5C200804D46 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADD2E1B62C5CB00804D46 /* Colours.h in Headers */,
+				40BADD191B62C5C200804D46 /* ColoursMacObjC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		403BC9951B5FE51300382F4E /* Colours */ = {
+		40BADC391B62C45900804D46 /* ColoursiOSSwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 403BC9AC1B5FE51400382F4E /* Build configuration list for PBXNativeTarget "Colours" */;
+			buildConfigurationList = 40BADC4D1B62C45900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSSwift" */;
 			buildPhases = (
-				403BC9911B5FE51300382F4E /* Sources */,
-				403BC9921B5FE51300382F4E /* Frameworks */,
-				403BC9931B5FE51300382F4E /* Headers */,
-				403BC9941B5FE51300382F4E /* Resources */,
+				40BADC351B62C45900804D46 /* Sources */,
+				40BADC361B62C45900804D46 /* Frameworks */,
+				40BADC371B62C45900804D46 /* Headers */,
+				40BADC381B62C45900804D46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Colours;
-			productName = Colours;
-			productReference = 403BC9961B5FE51300382F4E /* Colours.framework */;
+			name = ColoursiOSSwift;
+			productName = ColoursiOSSwift;
+			productReference = 40BADC3A1B62C45900804D46 /* ColoursiOSSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		403BC9DE1B5FEBA300382F4E /* Colours-iOS */ = {
+		40BADC431B62C45900804D46 /* ColoursiOSSwiftTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 403BC9F21B5FEBA300382F4E /* Build configuration list for PBXNativeTarget "Colours-iOS" */;
+			buildConfigurationList = 40BADC501B62C45900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSSwiftTests" */;
 			buildPhases = (
-				403BC9DA1B5FEBA300382F4E /* Sources */,
-				403BC9DB1B5FEBA300382F4E /* Frameworks */,
-				403BC9DC1B5FEBA300382F4E /* Headers */,
-				403BC9DD1B5FEBA300382F4E /* Resources */,
+				40BADC401B62C45900804D46 /* Sources */,
+				40BADC411B62C45900804D46 /* Frameworks */,
+				40BADC421B62C45900804D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BADC471B62C45900804D46 /* PBXTargetDependency */,
+			);
+			name = ColoursiOSSwiftTests;
+			productName = ColoursiOSSwiftTests;
+			productReference = 40BADC441B62C45900804D46 /* ColoursiOSSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40BADC571B62C46900804D46 /* ColoursiOSObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BADC6B1B62C46900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSObjC" */;
+			buildPhases = (
+				40BADC531B62C46900804D46 /* Sources */,
+				40BADC541B62C46900804D46 /* Frameworks */,
+				40BADC551B62C46900804D46 /* Headers */,
+				40BADC561B62C46900804D46 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Colours-iOS";
-			productName = "Colours-iOS";
-			productReference = 403BC9DF1B5FEBA300382F4E /* Colours.framework */;
+			name = ColoursiOSObjC;
+			productName = ColoursiOSObjC;
+			productReference = 40BADC581B62C46900804D46 /* ColoursiOSObjC.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		40BADC611B62C46900804D46 /* ColoursiOSObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BADC6E1B62C46900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSObjCTests" */;
+			buildPhases = (
+				40BADC5E1B62C46900804D46 /* Sources */,
+				40BADC5F1B62C46900804D46 /* Frameworks */,
+				40BADC601B62C46900804D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BADC651B62C46900804D46 /* PBXTargetDependency */,
+			);
+			name = ColoursiOSObjCTests;
+			productName = ColoursiOSObjCTests;
+			productReference = 40BADC621B62C46900804D46 /* ColoursiOSObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40BADCF51B62C5B800804D46 /* ColoursMacSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BADD091B62C5B800804D46 /* Build configuration list for PBXNativeTarget "ColoursMacSwift" */;
+			buildPhases = (
+				40BADCF11B62C5B800804D46 /* Sources */,
+				40BADCF21B62C5B800804D46 /* Frameworks */,
+				40BADCF31B62C5B800804D46 /* Headers */,
+				40BADCF41B62C5B800804D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColoursMacSwift;
+			productName = ColoursMacSwift;
+			productReference = 40BADCF61B62C5B800804D46 /* ColoursMacSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40BADCFF1B62C5B800804D46 /* ColoursMacSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BADD0C1B62C5B800804D46 /* Build configuration list for PBXNativeTarget "ColoursMacSwiftTests" */;
+			buildPhases = (
+				40BADCFC1B62C5B800804D46 /* Sources */,
+				40BADCFD1B62C5B800804D46 /* Frameworks */,
+				40BADCFE1B62C5B800804D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BADD031B62C5B800804D46 /* PBXTargetDependency */,
+			);
+			name = ColoursMacSwiftTests;
+			productName = ColoursMacSwiftTests;
+			productReference = 40BADD001B62C5B800804D46 /* ColoursMacSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40BADD131B62C5C200804D46 /* ColoursMacObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BADD271B62C5C200804D46 /* Build configuration list for PBXNativeTarget "ColoursMacObjC" */;
+			buildPhases = (
+				40BADD0F1B62C5C200804D46 /* Sources */,
+				40BADD101B62C5C200804D46 /* Frameworks */,
+				40BADD111B62C5C200804D46 /* Headers */,
+				40BADD121B62C5C200804D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColoursMacObjC;
+			productName = ColoursMacObjC;
+			productReference = 40BADD141B62C5C200804D46 /* ColoursMacObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		40BADD1D1B62C5C200804D46 /* ColoursMacObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40BADD2A1B62C5C200804D46 /* Build configuration list for PBXNativeTarget "ColoursMacObjCTests" */;
+			buildPhases = (
+				40BADD1A1B62C5C200804D46 /* Sources */,
+				40BADD1B1B62C5C200804D46 /* Frameworks */,
+				40BADD1C1B62C5C200804D46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40BADD211B62C5C200804D46 /* PBXTargetDependency */,
+			);
+			name = ColoursMacObjCTests;
+			productName = ColoursMacObjCTests;
+			productReference = 40BADD1E1B62C5C200804D46 /* ColoursMacObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -163,10 +538,28 @@
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = Colours;
 				TargetAttributes = {
-					403BC9951B5FE51300382F4E = {
+					40BADC391B62C45900804D46 = {
 						CreatedOnToolsVersion = 6.4;
 					};
-					403BC9DE1B5FEBA300382F4E = {
+					40BADC431B62C45900804D46 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BADC571B62C46900804D46 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BADC611B62C46900804D46 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BADCF51B62C5B800804D46 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BADCFF1B62C5B800804D46 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BADD131B62C5C200804D46 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					40BADD1D1B62C5C200804D46 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -183,21 +576,69 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				403BC9951B5FE51300382F4E /* Colours */,
-				403BC9DE1B5FEBA300382F4E /* Colours-iOS */,
+				40BADC391B62C45900804D46 /* ColoursiOSSwift */,
+				40BADC431B62C45900804D46 /* ColoursiOSSwiftTests */,
+				40BADC571B62C46900804D46 /* ColoursiOSObjC */,
+				40BADC611B62C46900804D46 /* ColoursiOSObjCTests */,
+				40BADCF51B62C5B800804D46 /* ColoursMacSwift */,
+				40BADCFF1B62C5B800804D46 /* ColoursMacSwiftTests */,
+				40BADD131B62C5C200804D46 /* ColoursMacObjC */,
+				40BADD1D1B62C5C200804D46 /* ColoursMacObjCTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		403BC9941B5FE51300382F4E /* Resources */ = {
+		40BADC381B62C45900804D46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		403BC9DD1B5FEBA300382F4E /* Resources */ = {
+		40BADC421B62C45900804D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADC561B62C46900804D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADC601B62C46900804D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADCF41B62C5B800804D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADCFE1B62C5B800804D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADD121B62C5C200804D46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADD1C1B62C5C200804D46 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,23 +648,94 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		403BC9911B5FE51300382F4E /* Sources */ = {
+		40BADC351B62C45900804D46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403BC9FB1B5FEBE900382F4E /* Colours.m in Sources */,
+				40BADCB31B62C4BB00804D46 /* Colours.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		403BC9DA1B5FEBA300382F4E /* Sources */ = {
+		40BADC401B62C45900804D46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				403BC9F91B5FEBDF00382F4E /* Colours.swift in Sources */,
+				40BADC4C1B62C45900804D46 /* ColoursiOSSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADC531B62C46900804D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADCB01B62C4B600804D46 /* Colours.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADC5E1B62C46900804D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADC6A1B62C46900804D46 /* ColoursiOSObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADCF11B62C5B800804D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADD2D1B62C5C700804D46 /* Colours.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADCFC1B62C5B800804D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADD081B62C5B800804D46 /* ColoursMacSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADD0F1B62C5C200804D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADD2F1B62C5CB00804D46 /* Colours.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40BADD1A1B62C5C200804D46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40BADD261B62C5C200804D46 /* ColoursMacObjCTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40BADC471B62C45900804D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BADC391B62C45900804D46 /* ColoursiOSSwift */;
+			targetProxy = 40BADC461B62C45900804D46 /* PBXContainerItemProxy */;
+		};
+		40BADC651B62C46900804D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BADC571B62C46900804D46 /* ColoursiOSObjC */;
+			targetProxy = 40BADC641B62C46900804D46 /* PBXContainerItemProxy */;
+		};
+		40BADD031B62C5B800804D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BADCF51B62C5B800804D46 /* ColoursMacSwift */;
+			targetProxy = 40BADD021B62C5B800804D46 /* PBXContainerItemProxy */;
+		};
+		40BADD211B62C5C200804D46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40BADD131B62C5C200804D46 /* ColoursMacObjC */;
+			targetProxy = 40BADD201B62C5C200804D46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		403BC9AA1B5FE51400382F4E /* Debug */ = {
@@ -310,43 +822,7 @@
 			};
 			name = Release;
 		};
-		403BC9AD1B5FE51400382F4E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Colours/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = Colours;
-				SKIP_INSTALL = YES;
-			};
-			name = Debug;
-		};
-		403BC9AE1B5FE51400382F4E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = Colours/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
-				PRODUCT_NAME = Colours;
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		403BC9F31B5FEBA300382F4E /* Debug */ = {
+		40BADC4E1B62C45900804D46 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -359,18 +835,18 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "Colours-iOS/Info.plist";
+				INFOPLIST_FILE = ColoursiOSSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = Colours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		403BC9F41B5FEBA300382F4E /* Release */ = {
+		40BADC4F1B62C45900804D46 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -378,15 +854,275 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Colours-iOS/Info.plist";
+				INFOPLIST_FILE = ColoursiOSSwift/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = Colours;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BADC511B62C45900804D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursiOSSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40BADC521B62C45900804D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursiOSSwiftTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BADC6C1B62C46900804D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursiOSObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40BADC6D1B62C46900804D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = ColoursiOSObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BADC6F1B62C46900804D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursiOSObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40BADC701B62C46900804D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursiOSObjCTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40BADD0A1B62C5B800804D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursMacSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40BADD0B1B62C5B800804D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ColoursMacSwift/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40BADD0D1B62C5B800804D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursMacSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40BADD0E1B62C5B800804D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursMacSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		40BADD281B62C5C200804D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursMacObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		40BADD291B62C5C200804D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = ColoursMacObjC/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		40BADD2B1B62C5C200804D46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursMacObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		40BADD2C1B62C5C200804D46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ColoursMacObjCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -402,20 +1138,67 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		403BC9AC1B5FE51400382F4E /* Build configuration list for PBXNativeTarget "Colours" */ = {
+		40BADC4D1B62C45900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				403BC9AD1B5FE51400382F4E /* Debug */,
-				403BC9AE1B5FE51400382F4E /* Release */,
+				40BADC4E1B62C45900804D46 /* Debug */,
+				40BADC4F1B62C45900804D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		403BC9F21B5FEBA300382F4E /* Build configuration list for PBXNativeTarget "Colours-iOS" */ = {
+		40BADC501B62C45900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSSwiftTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				403BC9F31B5FEBA300382F4E /* Debug */,
-				403BC9F41B5FEBA300382F4E /* Release */,
+				40BADC511B62C45900804D46 /* Debug */,
+				40BADC521B62C45900804D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BADC6B1B62C46900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BADC6C1B62C46900804D46 /* Debug */,
+				40BADC6D1B62C46900804D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BADC6E1B62C46900804D46 /* Build configuration list for PBXNativeTarget "ColoursiOSObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BADC6F1B62C46900804D46 /* Debug */,
+				40BADC701B62C46900804D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BADD091B62C5B800804D46 /* Build configuration list for PBXNativeTarget "ColoursMacSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BADD0A1B62C5B800804D46 /* Debug */,
+				40BADD0B1B62C5B800804D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BADD0C1B62C5B800804D46 /* Build configuration list for PBXNativeTarget "ColoursMacSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BADD0D1B62C5B800804D46 /* Debug */,
+				40BADD0E1B62C5B800804D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BADD271B62C5C200804D46 /* Build configuration list for PBXNativeTarget "ColoursMacObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BADD281B62C5C200804D46 /* Debug */,
+				40BADD291B62C5C200804D46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		40BADD2A1B62C5C200804D46 /* Build configuration list for PBXNativeTarget "ColoursMacObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40BADD2B1B62C5C200804D46 /* Debug */,
+				40BADD2C1B62C5C200804D46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

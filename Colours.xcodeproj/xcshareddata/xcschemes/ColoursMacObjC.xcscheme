@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "403BC9951B5FE51300382F4E"
-               BuildableName = "Colours.framework"
-               BlueprintName = "Colours"
+               BlueprintIdentifier = "40BADC931B62C48200804D46"
+               BuildableName = "ColoursMacObjC.framework"
+               BlueprintName = "ColoursMacObjC"
                ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "403BC9A01B5FE51300382F4E"
-               BuildableName = "ColoursTests.xctest"
-               BlueprintName = "ColoursTests"
+               BlueprintIdentifier = "40BADC9D1B62C48200804D46"
+               BuildableName = "ColoursMacObjCTests.xctest"
+               BlueprintName = "ColoursMacObjCTests"
                ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,9 +46,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "403BC9A01B5FE51300382F4E"
-               BuildableName = "ColoursTests.xctest"
-               BlueprintName = "ColoursTests"
+               BlueprintIdentifier = "40BADC9D1B62C48200804D46"
+               BuildableName = "ColoursMacObjCTests.xctest"
+               BlueprintName = "ColoursMacObjCTests"
                ReferencedContainer = "container:Colours.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -56,9 +56,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "403BC9951B5FE51300382F4E"
-            BuildableName = "Colours.framework"
-            BlueprintName = "Colours"
+            BlueprintIdentifier = "40BADC931B62C48200804D46"
+            BuildableName = "ColoursMacObjC.framework"
+            BlueprintName = "ColoursMacObjC"
             ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -75,9 +75,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "403BC9951B5FE51300382F4E"
-            BuildableName = "Colours.framework"
-            BlueprintName = "Colours"
+            BlueprintIdentifier = "40BADC931B62C48200804D46"
+            BuildableName = "ColoursMacObjC.framework"
+            BlueprintName = "ColoursMacObjC"
             ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -93,9 +93,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "403BC9951B5FE51300382F4E"
-            BuildableName = "Colours.framework"
-            BlueprintName = "Colours"
+            BlueprintIdentifier = "40BADC931B62C48200804D46"
+            BuildableName = "ColoursMacObjC.framework"
+            BlueprintName = "ColoursMacObjC"
             ReferencedContainer = "container:Colours.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
